@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "ESNext",
+    "lib": ["dom", "esnext", "ES6"],
+    "moduleResolution": "node",
+    "allowUmdGlobalAccess": true,
+    "esModuleInterop": true,
+    "noImplicitReturns": true,
+    "emitDeclarationOnly": false,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "declaration": true,
+    "declarationDir": ".",
+    "declarationMap": true,
+    "sourceMap": false,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "baseUrl": "http://localhost:8000"
+  },
+  "include": ["lib"],
+  "files": [],
+  "references": [
+    {
+      "path": "./lib"
+    }
+  ],
+  "exclude": ["node_modules", "playground"]
+}
